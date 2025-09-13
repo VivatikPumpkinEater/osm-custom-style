@@ -1,4 +1,4 @@
-# OpenStreetMap Carto
+# based on OpenStreetMap Carto
 
 ![screenshot](https://raw.github.com/gravitystorm/openstreetmap-carto/master/preview.png)
 
