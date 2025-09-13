@@ -1,28 +1,28 @@
-@marina-text: #576ddf; // also swimming_pool
-@wetland-text: darken(#4aa5fa, 25%); /* Also for mud */
-@shop-icon: #ac39ac;
-@shop-text: #939;
-@transportation-icon: #0092da;
-@transportation-text: #0066ff;
+@marina-text: #4a6b7a; // Мягкий темно-серый
+@wetland-text: #6a8a9a; /* Мягкий серый */
+@shop-icon: #6a8a9a;    // Мягкий серый для магазинов
+@shop-text: #4a6b7a;    // Мягкий темно-серый
+@transportation-icon: #6a8a9a; // Мягкий серый для транспорта
+@transportation-text: #4a6b7a; // Мягкий темно-серый
 @accommodation-icon: @transportation-icon;
 @accommodation-text: @transportation-text;
-@airtransport: #8461C4; //also ferry_terminal
-@health-color: #BF0000;
-@amenity-brown: #734a08;
-@gastronomy-icon: #C77400;
-@gastronomy-text: darken(@gastronomy-icon, 5%);
+@airtransport: #6a8a9a; // Мягкий серый
+@health-color: #ff8a8a; // Мягкий красный для здоровья
+@amenity-brown: #6a8a9a; // Мягкий серый вместо коричневого
+@gastronomy-icon: #4a6b7a;      // Мягкий темно-серый для ресторанов/баров
+@gastronomy-text: #2a4a5a;       // Темно-серый для текста
 @memorials: @amenity-brown;
 @culture: @amenity-brown;
 @public-service: @amenity-brown;
-@office: #4863A0;
-@man-made-icon: #666666;
+@office: #6a8a9a;        // Мягкий серый для офисов
+@man-made-icon: #8a9aaa; // Светло-серый
 @advertising-grey: @man-made-icon;
-@barrier-icon: #3f3f3f;
-@landform-color: #d08f55;
-@leisure-green: darken(@park, 60%);
-@protected-area: #008000;
-@aboriginal: #82643a;
-@religious-icon: #000000;
+@barrier-icon: #6a8a9a;  // Мягкий серый
+@landform-color: #9aaaaa; // Светло-серый
+@leisure-green: #4a6b7a; // Мягкий темно-серый
+@protected-area: #4a6b7a; // Мягкий темно-серый
+@aboriginal: #6a8a9a;    // Мягкий серый
+@religious-icon: #6a8a9a; // Мягкий серый
 
 @landcover-font-size: 10;
 @landcover-wrap-width-size: 30; // 3 em

@@ -1,6 +1,6 @@
-@water-text: #4d80b3;
-@glacier: #ddecec;
-@glacier-line: #9cf;
+@water-text: #4a6b7a;      // Мягкий темно-серый для водного текста
+@glacier: #f8fafc;          // Очень светло-голубой для ледников
+@glacier-line: #e8f0f4;     // Светло-голубой
 
 @waterway-text-repeat-distance: 200;
 

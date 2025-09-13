@@ -1,41 +1,41 @@
-/* For the main linear features, such as roads and railways. */
+/* Минималистичные дороги для приложения бронирования */
 
 @tertiary-fill: #ffffff;
 @residential-fill: #ffffff;
 @service-fill: @residential-fill;
-@living-street-fill: #ededed;
-@pedestrian-fill: #dddde8;
-@raceway-fill: #ffc0cb;
-@road-fill: #ddd;
-@footway-fill: salmon;
-@footway-fill-noaccess: #bbbbbb;
+@living-street-fill: #f8f8f8;
+@pedestrian-fill: #f0f0f0;
+@raceway-fill: #f0f0f0;
+@road-fill: #f0f0f0;
+@footway-fill: #e8f5e8;        // Светло-зеленый для пешеходных дорожек
+@footway-fill-noaccess: #f0f0f0;
 @steps-fill: @footway-fill;
-@steps-fill-noaccess: #bbbbbb;
-@cycleway-fill: blue;
-@cycleway-fill-noaccess: #9999ff;
-@bridleway-fill: green;
-@bridleway-fill-noaccess: #aaddaa;
-@track-fill: #996600;
-@track-fill-noaccess: #e2c5bb;
-@platform-fill: #bbbbbb;
-@aeroway-fill: #bbc;
+@steps-fill-noaccess: #f0f0f0;
+@cycleway-fill: #d8f0d8;       // Зеленый для велодорожек
+@cycleway-fill-noaccess: #f0f0f0;
+@bridleway-fill: #e8f5e8;      // Светло-зеленый
+@bridleway-fill-noaccess: #f0f0f0;
+@track-fill: #d0e0d0;          // Зеленовато-серый
+@track-fill-noaccess: #f0f0f0;
+@platform-fill: #f0f0f0;
+@aeroway-fill: #f0f0f0;
 @runway-fill: @aeroway-fill;
 @taxiway-fill: @aeroway-fill;
 @helipad-fill: @aeroway-fill;
-@access-marking: #eaeaea;
-@access-marking-primary: #f0f0f0;
-@access-marking-secondary: #e4e4e4;
-@access-marking-white-unpaved: #e0e0e0;
-@access-marking-road: #f0f0f0;
-@access-marking-living-street: #d4d4d4;
+@access-marking: #f5f5f5;
+@access-marking-primary: #f8f8f8;
+@access-marking-secondary: #f0f0f0;
+@access-marking-white-unpaved: #f0f0f0;
+@access-marking-road: #f8f8f8;
+@access-marking-living-street: #f0f0f0;
 
 @default-casing: white;
-@tertiary-casing: #8f8f8f;
-@residential-casing: #bbb;
+@tertiary-casing: #e0e0e0;      // Светло-серый
+@residential-casing: #f0f0f0;   // Очень светло-серый
 @road-casing: @residential-casing;
 @service-casing: @residential-casing;
 @living-street-casing: @residential-casing;
-@pedestrian-casing: #999;
+@pedestrian-casing: #f0f0f0;    // Светло-серый
 @path-casing: @default-casing;
 @footway-casing: @default-casing;
 @steps-casing: @default-casing;
@@ -43,19 +43,19 @@
 @bridleway-casing: @default-casing;
 @track-casing: @default-casing;
 
-@tertiary-shield: #3b3b3b;
+@tertiary-shield: #2d5a2d;      // Темно-зеленый для щитов
 
 @unimportant-road: @residential-casing;
 
-@minor-construction: #aaa;
-@service-construction: #aaa;
+@minor-construction: #e0e0e0;    // Светло-серый
+@service-construction: #e0e0e0;  // Светло-серый
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
+@destination-marking: #e8f5e8;   // Светло-зеленый
+@private-marking: #f0f0f0;       // Светло-серый
+@private-marking-for-red: #e0e0e0; // Светло-серый
 
-@tunnel-casing: grey;
-@bridge-casing: black;
+@tunnel-casing: #e0e0e0;         // Светло-серый
+@bridge-casing: #d0d0d0;         // Серый
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);

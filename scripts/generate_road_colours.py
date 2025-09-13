@@ -27,8 +27,8 @@ class Color:
         return rgb.get_rgb_hex()
 
     def rgb_error(self):
-        return delta_e_cie2000(convert_color(self.m_lch, LabColor),
-                               convert_color(sRGBColor.new_from_rgb_hex(self.rgb()), LabColor))
+        return float(delta_e_cie2000(convert_color(self.m_lch, LabColor),
+                               convert_color(sRGBColor.new_from_rgb_hex(self.rgb()), LabColor)))
 
 def load_settings():
     """Read the settings from YAML."""

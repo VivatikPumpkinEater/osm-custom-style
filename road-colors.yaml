@@ -8,36 +8,33 @@ roads:
   - primary
   - secondary
 
-# The starting and ending hue. The range goes from 0 to 360, with 0 and 360
-# representing red.
-hue: [10, 106]
+# MapTiler-подобная схема для дорог
+hue: [200, 220]  # Голубой диапазон (как в MapTiler)
 
-# The lightness and chroma (also known as saturation) for each type of colour.
-# Lightness ranges from 0 to 100; dark to bright.
-# Chroma ranges from 0 to 100 too; unsaturated to fully saturated.
+# MapTiler-подобные цвета - очень светлые и мягкие
 classes:
   # Colours for output into the MSS file
   mss:
     fill:
-      lightness: [70, 97]
-      chroma: [35, 29]
+      lightness: [92, 98]    # Очень светлые
+      chroma: [5, 8]         # Очень низкая насыщенность
     casing:
-      lightness: [50, 50]
-      chroma: [70, 55]
+      lightness: [88, 92]    # Светлые обводки
+      chroma: [8, 12]        # Очень низкая насыщенность
     low-zoom:
-      lightness: [62, 92]
-      chroma: [50, 40]
+      lightness: [90, 96]    # Светлые для малого масштаба
+      chroma: [6, 10]        # Очень низкая насыщенность
     low-zoom-casing:
-      lightness: [50, 70]
-      chroma: [50, 65]
+      lightness: [85, 90]    # Светлые обводки для малого масштаба
+      chroma: [10, 15]       # Низкая насыщенность
     shield:
-      lightness: [20, 25]
-      chroma: [40, 42]
+      lightness: [30, 40]    # Мягкие темные для контраста
+      chroma: [15, 25]       # Низкая насыщенность
   # Colours used by the road shields script
   shield:
     fill:
-      lightness: [85, 95]
-      chroma: [12, 14]
+      lightness: [96, 98]    # Очень светлые щиты
+      chroma: [3, 5]         # Очень низкая насыщенность
     stroke_fill:
-      lightness: [70, 80]
-      chroma: [22, 24]
+      lightness: [85, 90]    # Светлые обводки щитов
+      chroma: [8, 12]        # Очень низкая насыщенность
